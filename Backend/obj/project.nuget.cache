@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "T+BEZD/2/lk=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\faree\\OneDrive\\Desktop\\Code\\local-meeting-transcriber\\Backend\\Backend.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.AspNetCore.Identity.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    }
+  ]
+}

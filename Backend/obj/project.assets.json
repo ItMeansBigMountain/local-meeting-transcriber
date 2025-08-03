@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
+      "Swashbuckle.AspNetCore >= 6.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\faree\\.nuget\\packages\\": {},
+    "D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\faree\\OneDrive\\Desktop\\Code\\local-meeting-transcriber\\Backend\\Backend.csproj",
+      "projectName": "Backend",
+      "projectPath": "C:\\Users\\faree\\OneDrive\\Desktop\\Code\\local-meeting-transcriber\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\faree\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faree\\OneDrive\\Desktop\\Code\\local-meeting-transcriber\\Backend\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\faree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.AspNetCore.Identity.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'D:\\Applications\\Visual-Studio-2022\\SDKs\\NuGetPackages' doesn't exist.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    }
+  ]
+}
