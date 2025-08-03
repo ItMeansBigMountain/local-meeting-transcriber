@@ -1,0 +1,70 @@
+# ======================
+# OS + Editor Junk
+# ======================
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.tmp
+*.bak
+*.sublime-project
+*.sublime-workspace
+
+# ======================
+# Node / React Native
+# ======================
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+frontend/dist/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+
+# ======================
+# Python / WhisperX
+# ======================
+*.pyc
+__pycache__/
+venv/
+*.pkl
+*.db
+*.sqlite3
+.env
+.env.*
+
+# ======================
+# .NET
+# ======================
+backend/bin/
+backend/obj/
+backend/*.db
+backend/*.sqlite
+backend/*.log
+backend/*.user
+backend/.vs/
+backend/.vscode/
+backend/*.swp
+
+# ASP.NET secrets (optional)
+secrets.json
+appsettings.Development.json
+
+# ======================
+# Terraform
+# ======================
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/terraform.tfstate*
+infra/*.tfvars
+
+# ======================
+# Audio / Transcripts
+# ======================
+*.wav
+*.mp3
+*.m4a
+*.json
+*.txt
+recordings/
+uploads/
