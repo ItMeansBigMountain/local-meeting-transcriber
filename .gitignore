@@ -36,15 +36,15 @@ venv/
 # ======================
 # .NET
 # ======================
-backend/bin/
-backend/obj/
-backend/*.db
-backend/*.sqlite
-backend/*.log
-backend/*.user
-backend/.vs/
-backend/.vscode/
-backend/*.swp
+Backend/bin/
+Backend/obj/
+Backend/*.db
+Backend/*.sqlite
+Backend/*.log
+Backend/*.user
+Backend/.vs/
+Backend/.vscode/
+Backend/*.swp
 
 # ASP.NET secrets (optional)
 secrets.json
