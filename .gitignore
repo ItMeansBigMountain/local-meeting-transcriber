@@ -1,75 +1,122 @@
-**/**/*.sln
-**/**/obj
-**/**/bin
 # ======================
-# OS + Editor Junk
+# OS / Editor junk
 # ======================
 .DS_Store
 Thumbs.db
-*.log
+ehthumbs.db
+Icon?
 *.swp
+*.swo
 *.tmp
 *.bak
-*.sublime-project
-*.sublime-workspace
+*.orig
+*.rej
+*.log
+*.pid
+*.seed
+*.coverage
+*.lcov
+.nyc_output/
+.idea/
+.vscode/
 
 # ======================
-# Node / React Native
+# Git / env helpers
 # ======================
-frontend/node_modules/
-frontend/.expo/
-frontend/.expo-shared/
-frontend/dist/
-frontend/.next/
-frontend/.env
-frontend/.env.local
-
-# ======================
-# Python / WhisperX
-# ======================
-*.pyc
-__pycache__/
-venv/
-*.pkl
-*.db
-*.sqlite3
 .env
 .env.*
+!.env.example
+.envrc
 
 # ======================
-# .NET
+# Node / React Native / Expo (any package)
 # ======================
-Backend/bin/
-Backend/obj/
-Backend/*.db
-Backend/*.sqlite
-Backend/*.log
-Backend/*.user
-Backend/.vs/
-Backend/.vscode/
-Backend/*.swp
+**/node_modules/
+**/.expo/
+**/.expo-shared/
+**/.expo/web/cache/
+**/dist/
+**/web-build/
+**/.next/
+**/.cache/
+**/coverage/
+.metero-cache/
+.metro-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# ASP.NET secrets (optional)
-secrets.json
-appsettings.Development.json
+# ======================
+# Frontend-specific (optional)
+# ======================
+frontend/.env
+frontend/.env.local
+frontend/.turbo/
+
+# ======================
+# .NET (solutions, build artifacts)
+# ======================
+**/*.sln.docstates
+**/*.user
+**/*.suo
+**/*.userosscache
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+**/BenchmarkDotNet.Artifacts/
+
+# App configuration (local/dev secrets)
+**/appsettings.Local.json
+**/appsettings.Development.json
+
+# SQLite / dev DB files
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+Backend/src/data/
+
+# ======================
+# Python (helpers, whisper, scripts)
+# ======================
+**/__pycache__/
+**/*.py[cod]
+**/.Python
+**/.mypy_cache/
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/env/
 
 # ======================
 # Terraform
 # ======================
-infra/.terraform/
-infra/.terraform.lock.hcl
-infra/terraform.tfstate*
-infra/*.tfvars
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate*
+**/*.tfvars
+**/*.tfvars.json
 
 # ======================
-# Audio / Transcripts
+# Audio / Transcripts / Uploads
 # ======================
-*.wav
-*.mp3
-*.m4a
-*.json
-*.txt
-recordings/
 uploads/
+recordings/
+**/*.wav
+**/*.mp3
+**/*.m4a
+**/*.flac
+**/*.json
+**/*.txt
 
+# ======================
+# Docker / container
+# ======================
+**/.docker/
+**/docker-data/
+
+# ======================
+# Misc project-specific
+# ======================
 .fake
